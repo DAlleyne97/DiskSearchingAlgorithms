@@ -1,0 +1,4 @@
+An integer will be passed into the function to represent the starting position
+and similar to C_Scan, it will work its way up to the upper limit and back down
+to the first. This time the limit is represented by the smallest element in the
+list

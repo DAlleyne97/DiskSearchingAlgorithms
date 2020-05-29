@@ -1,0 +1,5 @@
+An integer will be passed into the function to represent the starting position,
+it will find the difference between that position and first value in the List.
+That value will be stored into a total, the first value will become the head and
+it will be removed from the queue. This will continue until the List is empty,
+then the total will be returned.

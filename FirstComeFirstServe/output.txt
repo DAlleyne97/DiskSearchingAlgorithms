@@ -1,0 +1,35 @@
+Disk Schedule: 4859 2254 539 2214 736 2494 4835 977 2531 2057 
+
+Starting position: 640
+
+Moving from 640 to 4859 is 4219 movements.
+Current movement sum: 4219
+
+Moving from 4859 to 2254 is 2605 movements.
+Current movement sum: 6824
+
+Moving from 2254 to 539 is 1715 movements.
+Current movement sum: 8539
+
+Moving from 539 to 2214 is 1675 movements.
+Current movement sum: 10214
+
+Moving from 2214 to 736 is 1478 movements.
+Current movement sum: 11692
+
+Moving from 736 to 2494 is 1758 movements.
+Current movement sum: 13450
+
+Moving from 2494 to 4835 is 2341 movements.
+Current movement sum: 15791
+
+Moving from 4835 to 977 is 3858 movements.
+Current movement sum: 19649
+
+Moving from 977 to 2531 is 1554 movements.
+Current movement sum: 21203
+
+Moving from 2531 to 2057 is 474 movements.
+Current movement sum: 21677
+
+First Comes First Serve movement time: 21677

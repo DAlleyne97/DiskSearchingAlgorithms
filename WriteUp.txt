@@ -1,0 +1,83 @@
+Problem: The program will create 10 processes ranging from 0-4999. The program will decide a starting point of the disk head in the same range, then it will use a disk-scheduling algorithm and report back how long each algorithm takes to move the head towards each process.
+
+Assumption: Each algorithm will use the same List of 1000 numbers that will represent a group of processes that need to be executed and have the same starting point and use the same starting position that be a number between the range of 0 and 4999 exclusively, 0 and 4999 will be used for the upper and lower limit in certain functions. The head will not be an element already store in the list
+
+The total head movements will be a sum of differences between the current head position and the next process to be executed, taking the absolute value if the difference is negative.
+
+Originally I planned to use a Queue for each algorithm, but later realized it wont be the best data structure in all cases. First Come First Serve will have no problems being implemented, but when you need to iterate through the queue to find the shortest seek time in Shortest Seek Time First, certain difficulties/unnecessary actions such as removing the first element of the queue to check the next element, then reading it for later use can be bypassed by just using a List.
+
+A copy of the list will be made when each function is called to preserve the original list. With this temporary list, functions can sort or add elements to the List as needed. The List will be cleared at the end of each function, giving future functions an empty list to work with.
+
+Conclusion: After running the program multiple times with an expanded List of 1000 elements and each algorithm using the same List, We can see that the First Come First Serve algorithm always take the largest amount of movements to complete, while the others are usually within range of each other.
+
+Run 1:
+
+Starting position : 2035
+
+FCFS movement time: 1613158
+
+SSTF movement time: 7013
+
+Scan movement time: 7025
+
+C_Scan movement time: 7953
+
+Look movement time: 7005
+
+C_Look movement time: 7935
+
+*****************************
+
+Run 2:
+
+Starting position : 148
+
+FCFS movement time: 1688869
+
+SSTF movement time: 9832
+
+Scan movement time: 5144
+
+C_Scan movement time: 9838
+
+Look movement time: 5120
+
+C_Look movement time: 9832
+
+*****************************
+
+Run 3:
+
+Starting position : 2228
+
+FCFS movement time: 1640226
+
+SSTF movement time: 7758
+
+Scan movement time: 7225
+
+C_Scan movement time: 7762
+
+Look movement time: 7209
+
+C_Look movement time: 7758
+
+*****************************
+
+Run 4:
+
+Starting position : 4691
+
+FCFS movement time: 1654990
+
+SSTF movement time: 5273
+
+Scan movement time: 9677
+
+C_Scan movement time: 5299
+
+Look movement time: 9661
+
+C_Look movement time: 5273
+
+

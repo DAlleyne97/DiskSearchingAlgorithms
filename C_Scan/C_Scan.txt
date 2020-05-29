@@ -1,0 +1,5 @@
+An integer will be passed into the function to represent the starting position,
+the value 4999 will be added to represent the upper limit and then the list will
+be sorted.The function will start summing the differences from the starting position
+up towards the upper limit, removing the head and making the right value the new
+head, then work its way down to the first element

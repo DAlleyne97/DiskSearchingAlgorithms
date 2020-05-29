@@ -1,0 +1,37 @@
+Disk Schedule: 4688 4887 4568 4348 3753 4478 983 2981 3603 1518 
+
+Starting position: 4226
+
+New Disk Schedule: 983 1518 2981 3603 3753 4226 4348 4478 4568 4688 4887 
+
+Moving left from 4226 to 3753 is 473 movements.
+Current movement sum: 473
+
+Moving left from 3753 to 3603 is 150 movements.
+Current movement sum: 623
+
+Moving left from 3603 to 2981 is 622 movements.
+Current movement sum: 1245
+
+Moving left from 2981 to 1518 is 1463 movements.
+Current movement sum: 2708
+
+Moving left from 1518 to 983 is 535 movements.
+Current movement sum: 3243
+
+Moving right from 983 to 4348 is 3365 movements.
+Current movement sum: 6608
+
+Moving right from 4348 to 4478 is 130 movements.
+Current movement sum: 6738
+
+Moving right from 4478 to 4568 is 90 movements.
+Current movement sum: 6828
+
+Moving right from 4568 to 4688 is 120 movements.
+Current movement sum: 6948
+
+Moving right from 4688 to 4887 is 199 movements.
+Current movement sum: 7147
+
+Look movement time: 7147

@@ -1,0 +1,5 @@
+An integer will be passed into the function to represent the starting position,
+the value 0 will be added to represent the lower limit and then the list will be
+sorted.The function will start summing the differences from the starting position
+down towards 0, removing the head and making the left value the new head, then work
+its way up from 0 to the last element

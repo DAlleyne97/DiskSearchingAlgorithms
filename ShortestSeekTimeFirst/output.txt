@@ -1,0 +1,37 @@
+Disk Schedule: 1265 1642 3275 1511 1352 2966 1235 4721 3601 2997 
+
+Starting position: 721
+
+New Disk Schedule: 721 1235 1265 1352 1511 1642 2966 2997 3275 3601 4721 
+
+Moving right from 721 to 1235 is 514 movements.
+Current movement sum: 514
+
+Moving right from 1235 to 1265 is 30 movements.
+Current movement sum: 544
+
+Moving right from 1265 to 1352 is 87 movements.
+Current movement sum: 631
+
+Moving right from 1352 to 1511 is 159 movements.
+Current movement sum: 790
+
+Moving right from 1511 to 1642 is 131 movements.
+Current movement sum: 921
+
+Moving right from 1642 to 2966 is 1324 movements.
+Current movement sum: 2245
+
+Moving right from 2966 to 2997 is 31 movements.
+Current movement sum: 2276
+
+Moving right from 2997 to 3275 is 278 movements.
+Current movement sum: 2554
+
+Moving right from 3275 to 3601 is 326 movements.
+Current movement sum: 2880
+
+Moving right from 3601 to 4721 is 1120 movements.
+Current movement sum: 4000
+
+Shortest Seek Time First movement time: 4000

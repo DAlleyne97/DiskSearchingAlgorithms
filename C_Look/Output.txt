@@ -1,0 +1,35 @@
+Disk Schedule: 3376 3747 2599 3336 3998 2250 772 3972 985 3585 
+
+Starting position: 2557
+
+Moving right from 2557 to 2599 is 42 movements.
+Current movement sum: 42
+
+Moving right from 2599 to 3336 is 737 movements.
+Current movement sum: 779
+
+Moving right from 3336 to 3376 is 40 movements.
+Current movement sum: 819
+
+Moving right from 3376 to 3585 is 209 movements.
+Current movement sum: 1028
+
+Moving right from 3585 to 3747 is 162 movements.
+Current movement sum: 1190
+
+Moving right from 3747 to 3972 is 225 movements.
+Current movement sum: 1415
+
+Moving right from 3972 to 3998 is 26 movements.
+Current movement sum: 1441
+
+Moving left from 3998 to 2250 is 1748 movements.
+Current movement sum: 3189
+
+Moving left from 2250 to 985 is 1265 movements.
+Current movement sum: 4454
+
+Moving left from 985 to 772 is 213 movements.
+Current movement sum: 4667
+
+C_Look movement time: 4667

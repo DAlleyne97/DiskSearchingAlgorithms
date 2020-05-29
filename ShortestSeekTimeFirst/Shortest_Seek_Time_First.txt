@@ -1,0 +1,6 @@
+An integer will be passed into the function to represent the starting position
+and the list will be sorted.The function will check the differences between the
+head and the values located left or right. The smallest difference will be added
+to the sum and the value on the left or right will be the new head, removing the
+old one. If the difference of the left and the right are equal, we will go left.
+This will continue until the list has one element left.

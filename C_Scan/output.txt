@@ -1,0 +1,40 @@
+Disk Schedule: 3658 2917 2650 130 879 4804 1911 2623 2555 1197 
+
+Starting position: 1031
+
+New Disk Schedule: 130 879 1031 1197 1911 2555 2623 2650 2917 3658 4804 4999 
+
+Moving right from 1031 to 1197 is 166 movements.
+Current movement sum: 166
+
+Moving right from 1197 to 1911 is 714 movements.
+Current movement sum: 880
+
+Moving right from 1911 to 2555 is 644 movements.
+Current movement sum: 1524
+
+Moving right from 2555 to 2623 is 68 movements.
+Current movement sum: 1592
+
+Moving right from 2623 to 2650 is 27 movements.
+Current movement sum: 1619
+
+Moving right from 2650 to 2917 is 267 movements.
+Current movement sum: 1886
+
+Moving right from 2917 to 3658 is 741 movements.
+Current movement sum: 2627
+
+Moving right from 3658 to 4804 is 1146 movements.
+Current movement sum: 3773
+
+Moving right from 4804 to 4999 is 195 movements.
+Current movement sum: 3968
+
+Moving left from 4999 to 879 is 4120 movements.
+Current movement sum: 8088
+
+Moving left from 879 to 130 is 749 movements.
+Current movement sum: 8837
+
+C_Scan movement time: 8837

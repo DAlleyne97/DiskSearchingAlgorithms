@@ -1,0 +1,3 @@
+An integer will be passed into the function to represent the starting position
+and similar to Scan, it will work its way down to the lower limit and back up to
+the last. This time the limit is represented by the smallest element in the list
